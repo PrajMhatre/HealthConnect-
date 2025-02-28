@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import { FaNotesMedical, FaComment, FaUser, FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
@@ -43,12 +41,11 @@ const SymptomsForm = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-sky-100 to-sky-300 pt-12 pb-12">
-      <div className="w-full max-w-2xl p-10 bg-white rounded-2xl shadow-2xl">
-        <div className="text-center mb-8">
-          <FaNotesMedical className="text-red-500 text-4xl mx-auto mb-2" />
-          <h2 className="text-3xl font-bold text-gray-800">Health Management Form</h2>
-          <p className="text-gray-600 mt-2">Please fill in your details and symptoms below</p>
+    <div className="flex justify-center items-center h-screen bg-gradient-to-r from-blue-400 to-green-400">
+      <div className="w-full max-w-lg p-8 space-y-8 bg-white rounded-2xl shadow-lg">
+        <div className="flex items-center justify-center space-x-2">
+          <FaNotesMedical className="text-red-500 text-3xl" />
+          <h2 className="text-3xl font-bold text-center text-gray-800">Disease Symptoms Form</h2>
         </div>
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Name Field */}
