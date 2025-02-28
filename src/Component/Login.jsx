@@ -96,7 +96,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gradient-to-r from-green-400 to-blue-500">
+    <div className="flex justify-center items-center h-screen bg-gradient-to-r from-sky-100 to-sky-300">
       <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-2xl shadow-lg">
         <div className="flex items-center justify-center space-x-2">
           <FaHeartbeat className="text-red-500 text-3xl" />

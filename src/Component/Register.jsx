@@ -148,7 +148,7 @@ const Registration = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gradient-to-r from-green-400 to-blue-500">
+    <div className="flex justify-center items-center h-screen bg-gradient-to-r from-sky-100 to-sky-300">
       <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-2xl shadow-lg">
         <h2 className="text-3xl font-bold text-center text-gray-800">Register for Health Management</h2>
         {error && <p className="text-red-500 text-center">{error}</p>} {/* Error message */}
@@ -232,7 +232,7 @@ const Registration = () => {
           </button>
         </form>
         <div className="text-sm text-center text-gray-600">
-          Already have an account? <a href="/" className="text-green-500 hover:underline">Login</a>
+          Already have an account? <a href="/Login" className="text-green-500 hover:underline">Login</a>
         </div>
       </div>
     </div>
