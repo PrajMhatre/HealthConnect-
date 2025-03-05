@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import about from '../Component/Assets/about.jpeg';
+import about from '../Assets/about.jpeg';
 import { HeartIcon, DocumentTextIcon, AcademicCapIcon, ShieldCheckIcon, UsersIcon, DevicePhoneMobileIcon } from '@heroicons/react/24/outline';
 
 const AboutUs = () => {

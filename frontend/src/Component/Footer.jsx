@@ -1,50 +1,10 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// // import logo from '../../assets/logo.jpg'; // Update with your hospital logo path
-
-// const Footer = () => {
-//     return (
-//         <footer className="bg-gray-100 p-10 border-t-4 border-gray-400 mt-10">
-//             <div className="flex justify-between items-start">
-//                 <div className="flex-1 mr-10">
-//                     {/* <img src={logo} alt="Ranja Hospital" className="w-24 mb-2" /> */}
-//                     <h4 className="text-xl font-bold">HealthConnect</h4>
-//                 </div>
-
-//                 <div className="flex-1 mx-10">
-//                     <h4 className="text-lg font-semibold mb-2">Quick Links</h4>
-//                     <ul className="list-none p-0">
-//                         <li><a href="#" className="text-gray-800 hover:underline">Home</a></li>
-//                         <li><a href="#" className="text-gray-800 hover:underline">Appointment</a></li>
-//                         <li><a href="#" className="text-gray-800 hover:underline">Service</a></li>
-//                         <li><Link to="/about" className="text-gray-800 hover:underline">About Us</Link></li>
-//                         <li><a href="#" className="text-gray-800 hover:underline">Contact Us</a></li>
-//                     </ul>
-//                 </div>
-
-               
-
-//                 <div className="flex-1 ml-auto">
-//                     <h4 className="text-lg font-semibold mb-2">Contact</h4>
-//                     <ul className="list-none p-0">
-//                         <li>📞 000-000-000</li>
-//                         <li>✉️ info@email.com</li>
-//                         <li>📍 Kalutara South</li>
-//                     </ul>
-//                 </div>
-//             </div>
-//         </footer>
-//     );
-// };
-
-// export default Footer;
 
 
 
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../Component/Assets/logo.jpg"
+import logo from "../Assets/logo.jpg"
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'; // Importing icons for better visuals
 
 const Footer = () => {

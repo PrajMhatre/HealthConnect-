@@ -5,9 +5,9 @@
 
 import React from "react";
 import { Link } from 'react-router-dom';
-import main1 from '../Component/Assets/main1.jpg';
-import main2 from '../Component/Assets/main2.jpg'
-import herosec from '../Component/Assets/herosec.jpg';
+import main1 from '../Assets/main1.jpg';
+import main2 from '../Assets/main2.jpg'
+import herosec from '../Assets/herosec.jpg';
 
 const Homepage = () => {
   return (

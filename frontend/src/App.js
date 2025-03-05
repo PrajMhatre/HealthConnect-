@@ -2,15 +2,16 @@ import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import BasicTable from './components/Directory.jsx'
 
+
+import DoctorProfile from './Component/Doctor';
+import Homepage from './Component/MAinContent';
+import AboutUs from './Component/About';
 import Login from './Component/Login';
 import Registration from './Component/Register';
 import SymptomsForm from './Component/Form';
-
-import AboutUs from './Component/About';
 import Navbar from './Component/Navabr';
 import Footer from './Component/Footer';
-import Homepage from './Component/MAinContent';
-import DoctorProfile from './Component/Doctor';
+
 
 
 
